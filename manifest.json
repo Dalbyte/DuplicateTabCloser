@@ -1,0 +1,11 @@
+{
+  "manifest_version": 2,
+  "name": "Duplicate Tab Closer (DTC)",
+  "version": "1.0",
+  "_comment": "Schließt Automatisch Tabs die doppelt geöffnet sind",
+  "permissions": ["tabs"],
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  }
+}
